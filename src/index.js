@@ -49,6 +49,7 @@ class UserForm extends React.Component {
       })
     });
     console.log(this.state.persons);
+    this.resetHandler();
   };
 
   deleteHandler = id => {
