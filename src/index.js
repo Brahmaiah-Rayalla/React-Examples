@@ -22,7 +22,7 @@ class UserForm extends React.Component {
       this.refs.name.value === "" ||
       this.refs.name.value === null ||
       this.refs.age.value === "" ||
-      this.refs.age.value === ""
+      this.refs.age.value === null
     ) {
       buttonsData = (
         <p className="btn btn-danger">Name and Age can not be empty!!!</p>
