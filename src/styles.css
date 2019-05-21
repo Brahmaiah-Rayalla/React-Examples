@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.gridValidation {
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+}
+
+.fieldValidation {
+  text-align: center;
+  text-shadow: 2px 2px 5p;
+}
